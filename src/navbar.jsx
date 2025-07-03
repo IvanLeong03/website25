@@ -2,23 +2,24 @@ import React from "react";
 
 function Navbar() {     
     return (
-        <nav className="h-full w-1/5 py-6 px-4 border border-beige flex flex-col">
-
+        <nav className="h-screen border-r border-grey80 flex flex-col">
             
-            <div className="h-1/3">
+            <div className="h-2/5 w-4/5 mx-auto border-b-4 border-grey80 flex justify-between items-end py-8">
                 <a href="#home">
-                    <div>
-                        <h1 className="text-4xl font-bold">Ivan</h1>
-                        <h1 className="text-4xl font-bold">Leong</h1>
+                    <div className="w-3/4 mx-auto">
+                        <h1 className="text-5xl font-bold text-grey20">Ivan</h1>
+                        <h1 className="text-5xl font-bold text-grey40">Leong</h1>
                     </div>
                 </a>
             </div>
-            <div>
-                <ul className="flex flex-col gap-6 mt-4">
-                    <li className="text-lg hover:text-blue-500 hover:translate-x-3 cursor-pointer"><a href="#about">About</a></li>
-                    <li className="text-lg hover:text-blue-500 hover:translate-x-3 cursor-pointer"><a href="#work">Work</a></li>
-                    <li className="text-lg hover:text-blue-500 hover:translate-x-3 cursor-pointer">Projects</li>
-                    <li className="text-lg hover:text-blue-500 hover:translate-x-3 cursor-pointer">Contact</li>
+
+            <div className="h-1/5"></div>
+
+            <div className="w-1/2 mx-auto">
+                <ul className="flex flex-col items-end gap-6 text-xl text-grey20">
+                    <li className="hover:text-blue40 cursor-pointer"><a href="#work">Work</a></li>
+                    <li className="hover:text-blue40 cursor-pointer"><a href="#experience">Experience</a></li>
+                    <li className=" hover:text-blue40 cursor-pointer"><a href="#about">About</a></li>
                 </ul>
             </div>
         </nav>

@@ -7,7 +7,21 @@ export default {
   theme: {
     extend: {
       colors: {
-        beige: "#fff6d2"
+        beige90: "#fff5cc",
+        grey80: "#cccccc",
+        grey60: "#999999",    
+        grey40: "#666666",
+        grey20: "#333333",
+        purple80: "#cc99ff",
+        purple60: "#9933ff",
+        purple40: "#6600cc",
+        purple90: "#e6ccff",
+        blue80: "#99ccff",
+        blue60: "#3399ff",
+        blue40: "#0066cc"
+      },
+      fontFamily: {
+        montserrat: ["Montserrat", "sans-serif"]
       }
     },
   },

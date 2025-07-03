@@ -3,7 +3,7 @@ import React from "react";
 
 function about() {
     return (
-        <div className="flex flex-col items-start justify-between min-h-[60dvh] w-full bg-purple-200 p-12 text-lg">        
+        <div className="flex flex-col items-start justify-between h-dv max-h-[900px] w-full bg-purple-200 p-12 text-lg">        
             <h2 className="text-3xl font-bold my-8">About me</h2>
             <p className="my-4 font-semibold text-xl italic">
                 "If you look good, you feel good, and if you feel good, you play good." -- Deion Sanders

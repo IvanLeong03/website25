@@ -1,19 +1,37 @@
 import React from 'react';
+import ExpBlock from './ExpBlock';
 
-function Experience({title, company, years, description}) {    
+function Experience() {   
+    
+    const myExp = [
+        {
+            title: "Intern, IT",
+            company: "China Pacific (Life) Insurance Hong Kong",
+            duration: "June 2025 - August 2025",
+            description: ['aaa', 'bbb', 'ccc']
+        },
+        {
+            title: "Lead Software Engineer",
+            company: "Zimuth.AI",
+            duration: "February 2025 - present",
+            description: ['aaa', 'bbb', 'ccc']
+        }
+    ];
     
     return (
-        <div className='w-full min-h-[25dvh] border border-black rounded-2xl flex flex-col justify-start p-6 mt-6 mb-12'>
-            <h2 className='text-2xl font-bold my-2'>{title}</h2>
-            <div className='w-3/4 flex justify-between'>
-                <h3 className='text-lg text-gray-600 font-semibold'>{company}</h3>
-                <label className='text-md text-gray-500'>{years}</label>
-            </div>
-            <ul className="mt-4 list-disc list-inside text-gray-700">
-                {description.map((item, index) => (
-                <li key={index}>{item}</li>
-                ))}
-            </ul>            
+        <div className='w-full h-dvh max-h-[900px] p-24 bg-beige90 font-montserrat'>
+            <h1 className='text-3xl font-semibold'>experience</h1> 
+            {myExp.map((position, index) => (
+                <ExpBlock 
+                    key={index}
+                    title={position.title} 
+                    company={position.company} 
+                    duration={position.duration} 
+                    description={position.description} 
+                />
+            ))}
+
+                
         </div>
     );
 }
