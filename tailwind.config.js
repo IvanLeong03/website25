@@ -18,7 +18,8 @@ export default {
         purple90: "#e6ccff",
         blue80: "#99ccff",
         blue60: "#3399ff",
-        blue40: "#0066cc"
+        blue40: "#0066cc",
+        yellowHighlight: "#ffff66"
       },
       fontFamily: {
         montserrat: ["Montserrat", "sans-serif"]
