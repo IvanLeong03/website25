@@ -19,10 +19,14 @@ export default {
         blue80: "#99ccff",
         blue60: "#3399ff",
         blue40: "#0066cc",
+        bluepurple80: "#adadeb",
+        bluepurple60: "#5c5cd6",
+        bluepurple40: "#2929a3",
         yellowHighlight: "#ffff66"
       },
       fontFamily: {
-        montserrat: ["Montserrat", "sans-serif"]
+        montserrat: ["Montserrat", "sans-serif"],
+        geist: ['Geist', 'sans-serif']
       }
     },
   },

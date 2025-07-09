@@ -1,16 +1,17 @@
 import React from 'react'
 import Navbar from './navbar.jsx'
-import Home from './home.jsx'
 import Hero from './Hero.jsx'
 import About from './about.jsx'
 import Work from './work.jsx'
 import Experience from './experience.jsx'
+import SendEmail from './SendEmail.jsx'
+import { Routes, Route } from "react-router-dom";
 
 
 function App() {
 
   return (
-    <div className='flex h-screen max-w-[1920px] max-h-[1080px] mx-auto'>
+    <div className='flex h-screen max-w-[2560px] max-h-[1440px] mx-auto'>
       
       <div className='w-1/4 overflow-auto'>
         < Navbar />
@@ -22,6 +23,11 @@ function App() {
           <section id="experience"><Experience /></section>
           <section id="about"><About /></section>
         </main>
+
+        <Routes>
+          <Route path="/send-email" element={<SendEmail />} />
+        </Routes>
+
       </div>
     </div>
   )
