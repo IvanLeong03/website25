@@ -5,9 +5,11 @@ import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import SendEmail from "./SendEmail";
 import { Link } from "react-router-dom";
-
+import { useNavigate } from "react-router-dom";
 
 function about() {
+    const navigate = useNavigate();
+
     return (
         <div className="flex flex-col items-start justify-between min-h-dvh w-full p-24 font-geist">        
             <h2 className="text-4xl font-semibold my-8 font-montserrat">about me</h2>
@@ -105,10 +107,11 @@ function about() {
             { /* social links */ }
             <h2 className="text-2xl mt-12 mb-4">Contact me:</h2>
             <div className="flex justify-between items-center w-full lg:w-3/5 h-1/6 mx-auto">
-                <button className="hover:transform hover:scale-110 transition-transform duration-300">
-                    <Link to="/send-email">
-                        <MdEmail size={48} />
-                    </Link>
+                <button
+                 className="hover:transform hover:scale-110 transition-transform duration-300"
+                 onClick={() => navigate('/send-email')}
+                 >                    
+                    <MdEmail size={48} />
                 </button>
                 
                 <button className="hover:transform hover:scale-110 transition-transform duration-300">
