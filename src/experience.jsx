@@ -1,5 +1,6 @@
 import React from 'react';
 import ExpBlock from './ExpBlock';
+import EducationBlock from './EducationBlock';
 
 function Experience() {   
     
@@ -27,6 +28,22 @@ function Experience() {
             ]
         }
     ];
+
+    const education = [
+        {
+            title: "BSc Computer Science",
+            grade: "Upper Second Class Honours",
+            school: "University College London",
+            //image: "/src/assets/1678069633302.jpeg",
+            duration: "September 2021 - June 2024",
+            description: [
+                'Modules include: Machine Learning, Object-Oriented Programming, Software Engineering, Compilers, Computer Architecture & Concurrency, Mathematics and Statistics, Security, Logic',
+                'Dissertation on Formalizing Proofs for Soundness in Hoare \
+                Logic using Isabelle/HOL',
+                'Studied Japanese for two years as part of the IEP minor'
+            ]
+        }
+    ];
     
     return (
         <div className='w-full min-h-dvh p-24 border-b-2 border-purple40 font-montserrat'>
@@ -47,6 +64,26 @@ function Experience() {
                     key={index}
                     title={position.title} 
                     company={position.company} 
+                    image={position.image}
+                    duration={position.duration} 
+                    description={position.description} 
+                    index={index}
+                />
+                </div>
+            ))}
+
+            <h1 className='text-3xl font-semibold my-12'>education</h1> 
+            {education.map((position, index) => (
+                <div
+                    key={index}
+                    className={'justify-start'}
+                >
+
+                <EducationBlock 
+                    key={index}
+                    title={position.title} 
+                    grade={position.grade}
+                    school={position.school} 
                     image={position.image}
                     duration={position.duration} 
                     description={position.description} 

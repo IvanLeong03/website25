@@ -13,7 +13,7 @@ function ExpBlock({title, company, image, duration, description}) {
                 <img src={image} className="right-0 h-24"/>
             </div>
             
-            <ul className="mt-4 list-disc list-inside text-grey60 text-lg">
+            <ul className="mt-4 list-disc list-inside text-grey60 text-lg font-geist">
                 {description.map((item, index) => (
                 <li key={index}>{item}</li>
                 ))}

@@ -37,62 +37,70 @@ function about() {
                 </p>
             </section>
 
-            <section className="text-grey40 text-lg w-full my-16">
-                <h2 className="text-2xl font-semibold underline">Technical Skills</h2>
-                <div className="grid grid-cols-3 gap-x-4 my-4">                   
+            <section className="text-grey40 text-lg w-full mt-16 mb-8">
+                <h2 className="text-2xl font-semibold underline mb-16">Technologies I work with</h2>
+                <div className="w-full grid grid-cols-3 gap-x-6 mb-4">                   
                     <div>
-                        <label>Programming languages:</label>
+                        <label>Programming:</label>
                         <ul className="mt-8">
-                            <li>Python</li>
-                            <li>Java</li>
-                            <li>JavaScript (React.js, Node.js, Express.js)</li>
-                            <li>C</li>                        
-                            <li>SQL (PostgreSQL, MySQL)</li>
-                            <li>Haskell</li>
+                            {['Python', 'Java', 'JavaScript', 'C', 'SQL', 'Haskell'].map(item => (
+                            <li key={item} className="flex items-center">
+                                {item}
+                            </li>
+                            ))}
                         </ul>
                     </div>
                     <div>
-                        <label>Machine Learning and Data:</label>
+                        <label>Frameworks:</label>
                         <ul className="mt-8">
-                            <li>NumPy</li>
-                            <li>Pandas</li>
-                            <li>Scikit-learn</li>
-                            <li>TensorFlow</li>
-                            <li>MatPlotLib</li>
-                            <li>Seaborn</li>
-                            <li></li>
+                            {['React.JS', 'Node.JS', 'Express.JS', 'Flask'].map(item => (
+                            <li key={item} className="flex items-center">
+                                {item}
+                            </li>
+                            ))}
                         </ul>
                     </div>
+                    <div>
+                        <label>ML & Data:</label>                       
+                        <ul className="mt-8">
+                            {['NumPy, Pandas', 'Matplotlib, Seaborn', 'Tensorflow, Sk-learn, PyTorch'].map(item => (
+                            <li key={item} className="flex items-center">
+                                {item}
+                            </li>
+                            ))}
+                        </ul>
+                    </div>
+                    {/*
                     <div>
                         <label>Others:</label>
                         <ul className="mt-8">
-                            <li>Git</li>
-                            <li>Docker</li>
-                            <li>Web scraping</li>
-                            <li>CLI</li>                            
+                            {['Git', 'Docker', 'CLI','Web scraping'].map(item => (
+                            <li key={item} className="flex items-center">
+                                {item}
+                            </li>
+                            ))}
                         </ul>
                     </div>
+                    */}
                 </div>                                                     
             </section>
 
-            <section className="text-grey40 text-lg my-16 w-full">   
-                <h2 className="text-2xl font-semibold underline">Other Interests</h2>
-                <div className="grid grid-cols-2 gap-x-4 my-4">                                       
+            <section className="text-grey40 text-lg my-12 w-full">   
+                <h2 className="text-2xl font-semibold underline mb-16">Other Interests</h2>
+                <div className="grid grid-cols-2 gap-x-4">                                       
                     <div>
-                        <label>Likes:</label>
-                        <ul className="my-8">
-                            <li>Football</li>
-                            <li>Basketball</li>
-                            <li>Hiking</li>
-                            <li>Music</li>
-                            <li>Travelling</li>
-                            <li>Photography</li>
-                            <li>Fashion</li>   
+                        <label>Likes:</label>                        
+                        <ul className="mt-8">
+                            {['Football', 'Basketball', 'Hiking', 'Travelling', 'Photography', 'Gaming', 'Music', 'Fashion'].map(item => (
+                            <li key={item} className="flex items-center">
+                                {item}
+                            </li>
+                            ))}
                         </ul>
                     </div>
 
                     <div>
-                        <label>Conversation starters if we meet:</label>
+                        <label>Conversation starters if we meet</label>
                         <ul className="my-8">
                             <li>Fav colour: yellow purple or gray depending on mood</li> 
                             <li>Fav drink: Hong Kong style milk tea</li>  
