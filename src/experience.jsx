@@ -50,7 +50,7 @@ function Experience() {
         <div className='w-full min-h-dvh p-24 font-montserrat'>
             <div className='relative flex justify-start items-start mb-36'>
                 <h1 className='text-4xl font-semibold z-20'>experience</h1> 
-                <div className='h-[300px] w-[300px] z-10 absolute left-[160px] -top-[75px] rounded-full bg-egg flex justify-center items-center p-6'>
+                <div className='h-[300px] w-[300px] z-10 absolute left-[160px] -top-[75px] rounded-full bg- bg-yellowHighlight flex justify-center items-center p-6'>
                     <p className='text-lg w-2/3 mx-auto text-purple60'>Looking for full time roles in <b>Software Engineering/Machine Learning</b></p>
                 </div>
             </div>

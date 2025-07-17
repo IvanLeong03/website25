@@ -10,7 +10,7 @@ const Carousel = () => {
       tools: "Python, Scikit-learn, Pandas, NumPy",
       image: "/src/assets/trendarrow.jpeg",
       link: "https://github.com/IvanLeong03/NBA-career-trajectory",
-      description: "I used Random Forest Regressor and XGBoost to predict the statistics of an NBA player in his prime, based on their performance in their first three seasons."
+      description: "I used Random Forest Regressor and XGBoost to predict the statistics of an NBA player in his prime, based on their performance in their first three seasons. Classifier to be added."
     },
     {
       id: 2,
