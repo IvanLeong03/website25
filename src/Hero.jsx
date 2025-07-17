@@ -14,7 +14,7 @@ function Hero() {
                 
                 {/* Content */}
                 <h1 className="text-4xl z-10 text-purple70 animate-pulse">Hello, I'm Ivan, a software engineer.</h1>
-                <p className="text-lg text-gray-700 z-10">I'll put a picture here when I eventually stumble across a good one</p>
+                <p className="text-lg text-gray-700 z-10">I'll put a picture here when I eventually take a good one!</p>
             </div>
         </div>
     );

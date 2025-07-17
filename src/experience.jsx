@@ -38,7 +38,7 @@ function Experience() {
             //image: "/src/assets/1678069633302.jpeg",
             duration: "September 2021 - June 2024",
             description: [
-                'Modules include: Machine Learning, Object-Oriented Programming, Software Engineering, Compilers, Computer Architecture & Concurrency, Mathematics and Statistics, Security, Logic',
+                'Modules include: Machine Learning, Object-Oriented Programming, Algorithms, Software Engineering, Compilers, Computer Architecture & Concurrency, Mathematics and Statistics, Security, Logic',
                 'Dissertation on Formalizing Proofs for Soundness in Hoare \
                 Logic using Isabelle/HOL',
                 'Studied Japanese for two years as part of the IEP minor'
