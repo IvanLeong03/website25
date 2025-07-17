@@ -14,6 +14,7 @@ function Experience() {
                 'Working on introducing AI to the company (in progress).',
                 'Deliver IT induction training for new hires.',
                 'Assist in ensuring our products and services are compliant with the latest IA regulations.',
+                'Arranged a visit to the Tencent Shenzhen headquarters to for the IT team learn about their Cloud and AI products.'
             ]
         },
         {
@@ -46,11 +47,11 @@ function Experience() {
     ];
     
     return (
-        <div className='w-full min-h-dvh p-24 border-b-2 border-purple40 font-montserrat'>
-            <div className='relative flex justify-start items-start mb-32'>
+        <div className='w-full min-h-dvh p-24 font-montserrat'>
+            <div className='relative flex justify-start items-start mb-36'>
                 <h1 className='text-4xl font-semibold z-20'>experience</h1> 
-                <div className='h-[300px] w-[300px] z-10 absolute left-[160px] -top-[75px] rounded-full bg-yellowHighlight flex justify-center items-center p-6'>
-                    <p className='text-lg w-2/3 mx-auto text-purple40'>Looking for full time roles in <b>Software Engineering/Machine Learning</b></p>
+                <div className='h-[300px] w-[300px] z-10 absolute left-[160px] -top-[75px] rounded-full bg-egg flex justify-center items-center p-6'>
+                    <p className='text-lg w-2/3 mx-auto text-purple60'>Looking for full time roles in <b>Software Engineering/Machine Learning</b></p>
                 </div>
             </div>
            
@@ -72,7 +73,7 @@ function Experience() {
                 </div>
             ))}
 
-            <h1 className='text-3xl font-semibold my-12'>education</h1> 
+            <h1 className='text-3xl text-grey40 font-semibold my-16'>education</h1> 
             {education.map((position, index) => (
                 <div
                     key={index}

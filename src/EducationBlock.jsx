@@ -3,7 +3,7 @@ import React from "react";
 function EducationBlock({title, grade, school, image, duration, description}) {
 
     return (
-        <div className='w-4/5 border border-dotted border-black rounded-2xl flex flex-col justify-start p-6 my-12'>
+        <div className='w-full border border-black rounded-xl flex flex-col justify-start p-6 my-12'>
             <h2 className='text-2xl font-bold mt-2'>{school}</h2>
             <label className='text-md text-grey40'>{duration}</label>
             <div className='flex justify-between pr-4 h-24 my-2'>

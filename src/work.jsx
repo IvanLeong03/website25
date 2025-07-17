@@ -5,10 +5,10 @@ import Carousel from "./Carousel";
 function Work() {
 
     return (
-        <div className="min-h-dvh pt-24 py-12 border-t-2 border-b-2 border-bluepurple40 text-grey40 flex flex-col flex-grow justify-between font-geist">
-            <h1 className="text-4xl font-semibold px-24 font-montserrat">work</h1>
+        <div className="min-h-dvh pt-24 py-12 text-grey40 bg-stone-50 flex flex-col flex-grow justify-between font-geist">
+            <h1 className="text-4xl font-semibold px-24 font-montserrat text-purple30">work</h1>
             {/* carousel section */}
-            <div className="w-full">
+            <div className="w-full my-8">
                 <Carousel />
             </div>      
             { /* describe languages and tools I'm familiar with */ }

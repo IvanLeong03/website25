@@ -3,7 +3,7 @@ import React from "react";
 function ExpBlock({title, company, image, duration, description}) {
 
     return (
-        <div className='w-3/5 border border-dotted border-black rounded-2xl flex flex-col justify-start p-6 my-12'>
+        <div className='w-2/3 border border-dotted border-black rounded-2xl flex flex-col justify-start p-6 my-8'>
             <h2 className='text-2xl font-bold my-2'>{title}</h2>
             <div className='flex justify-between pr-4 h-24 my-2'>
                 <div className="w-3/5 flex flex-col">

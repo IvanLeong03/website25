@@ -68,7 +68,7 @@ const SendEmail = () => {
           <textarea value={detail} onChange={(e) => setDetail(e.target.value)} placeholder="Enter your message here" required className="w-full px-2 pt-2 rounded-xl pb-20 border border-grey80"/>
           <button
            type="submit" 
-           className="bg-cyan40 hover:bg-blue40 hover:text-yellowHighlight transition-all rounded-full py-1.5 w-20"
+           className="bg-cyan40 hover:bg-purple60 hover:text-yellowHighlight transition-all rounded-full py-1.5 w-20"
           >
             { isSending? "Sending ..." : "Send"}
           </button>

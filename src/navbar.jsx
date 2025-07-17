@@ -2,7 +2,7 @@ import React from "react";
 
 function Navbar() {     
     return (
-        <nav className="h-screen border-r-4 border-purple40 flex flex-col max-h-[1440px]">
+        <nav className="h-screen flex flex-col max-h-[1440px] bg-purple90">
             
             <div className="h-2/5 w-4/5 mx-auto border-b-4 border-grey60 flex justify-between items-end py-8">
                 <a href="#hero">

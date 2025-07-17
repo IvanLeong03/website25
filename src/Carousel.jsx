@@ -57,7 +57,7 @@ const Carousel = () => {
         {loopedProjects.map((project, index) => (
           <div 
             key={`${project.id}-${index}`} 
-            className="flex-shrink-0 mx-8 w-[450px] h-[500px] rounded-lg overflow-hidden shadow-md hover:scale-105 font-montserrat"
+            className="flex-shrink-0 mx-8 w-[450px] h-[500px] rounded-lg overflow-hidden shadow-md hover:scale-105 hover:shadow-lg font-montserrat"
           >
             <a href={project.link} target="_blank" rel="noopener noreferrer">
                 {/* Project image */}
