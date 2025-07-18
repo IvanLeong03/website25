@@ -1,5 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
+import TrendImage from "/src/assets/trendarrow.jpeg"
+import PomodoroImg from "/src/assets/pomodoro.png"
+import FbrefImg from "/src/assets/fbref_compare.png"
+import ZimuthWebImg from "/src/assets/logo_horizontal_black_circle.png"
 
 const Carousel = () => {
   // Sample project data
@@ -8,7 +12,7 @@ const Carousel = () => {
       id: 1,
       title: "NBA career trajectory prediction AI",
       tools: "Python, Scikit-learn, Pandas, NumPy",
-      image: "/src/assets/trendarrow.jpeg",
+      image: TrendImage,
       link: "https://github.com/IvanLeong03/NBA-career-trajectory",
       description: "I used Random Forest Regressor and XGBoost to predict the statistics of an NBA player in his prime, based on their performance in their first three seasons. Classifier to be added."
     },
@@ -16,7 +20,7 @@ const Carousel = () => {
       id: 2,
       title: "Pomodoro Timer",
       tools: "React.js, CSS",
-      image: "/src/assets/pomodoro.png",
+      image: PomodoroImg,
       link: "https://ivanleong03.github.io/pomodoro/",
       description: "A simple Pomodoro timer built with React.js, allowing users to manage their work and break intervals effectively. Done as part of a FreeCodeCamp course."
     },
@@ -24,7 +28,7 @@ const Carousel = () => {
       id: 3,
       title: "FBREF comparison and visualisation tool",
       tools: "Python, MatPlotLib, Pandas, NumPy",
-      image: "src/assets/fbref_compare.png",
+      image: FbrefImg,
       link: "https://github.com/IvanLeong03/percentile_viz.git",
       description: "I scraped percentile data from FBREF and used MatPlotLib to create a visualisation tool that allows users to compare players' statistics and charateristics."
     },
@@ -32,7 +36,7 @@ const Carousel = () => {
       id: 4,
       title: "Zimuth.AI Website",
       tools: "React.js, Tailwind CSS, Framer Motion",
-      image: "/src/assets/logo_horizontal_black_circle.png",
+      image: ZimuthWebImg,
       link: "https://www.zimuth.ai",
       description: "I built the first website for our startup using modern frontend tools, showcasing our AI-powered media monitoring assistant."
     }
@@ -49,7 +53,7 @@ const Carousel = () => {
           x: ["0%", "-100%"],
         }}
         transition={{
-          duration: 15,
+          duration: 20,
           ease: "linear",
           repeat: Infinity,
         }}

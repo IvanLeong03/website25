@@ -107,13 +107,12 @@ function about() {
                     <div>
                         <label className="text-blue80">Conversation starters if we meet</label>
                         <ul className="my-8">
-                            <li>Fav colour: <span className="text-yellow-300">yellow</span> <span className="text-purple60">purple</span> or some sorta denim-ish <span className="text-grey20">dark grey</span> (depending on mood)</li> 
+                            <li>Fav animal: probably leopards </li>
                             <li>Fav drink: Hong Kong style milk tea</li>  
                             <li>Fav sports team: Manchester United (unfortunately)</li>       
                             <li>Fav singer: Jay Chou</li>         
                         </ul>
                     </div>
-
                 </div>
             </section>
 
