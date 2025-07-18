@@ -1,6 +1,8 @@
 import React from 'react';
 import ExpBlock from './ExpBlock';
 import EducationBlock from './EducationBlock';
+import ZimuthLogoImg from "/src/assets/logo_icon_turquoise.png"
+import CpicLogoImg from "/src/assets/1678069633302.jpeg"
 
 function Experience() {   
     
@@ -8,7 +10,7 @@ function Experience() {
         {
             title: "Intern, IT",
             company: "China Pacific (Life) Insurance Hong Kong",
-            image: "/src/assets/1678069633302.jpeg",
+            image: CpicLogoImg,
             duration: "June 2025 - August 2025, ongoing",
             description: [
                 'Working on introducing AI to the company (in progress).',
@@ -20,7 +22,7 @@ function Experience() {
         {
             title: "Lead Software Engineer",
             company: "Zimuth.AI",
-            image: "/src/assets/logo_icon_turquoise.png",
+            image: ZimuthLogoImg,
             duration: "February 2025 - present",
             description: [
                 'Designed and developed the desktop website for our upcoming product, Zone News, from scratch. Currently a work in progress.', 
